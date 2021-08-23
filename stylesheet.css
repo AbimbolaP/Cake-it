@@ -1,0 +1,69 @@
+body,
+html{
+	background: url(backgroundbake.jfif) no-repeat center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: georgia;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+	text-align: center;
+	color: #801515;
+	font-size: 10em;
+  border-bottom: 3px solid pink;
+  border-right: 3px solid pink;
+  width: 900px;
+  box-shadow: 5px 5px 8px #888888;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p{
+	color: #550000;
+	font-size: 1.3em;
+	font-style: oblique;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+header{
+	font-size: 2em;
+	color: #550000;
+}
+
+button{
+	background-color:#FFAAAA;
+	border-color:#FFAAAA;
+	border-radius: 10%;
+	align-items: center;
+	padding: 1rem 2rem;
+	font-family: georgia;
+	font-style: oblique;
+}
+
+button:hover{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #801515;
+}
+
+.container{
+	display: inline-block;
+	margin-top: 100px;
+	margin-left: 350px;
+	align-items: center;
+}
+
+.rightbutton{
+	margin-right: 70px;
+}
+
+.leftbutton{
+	margin-left: 70px;	
+}
+
